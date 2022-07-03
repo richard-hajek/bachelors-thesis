@@ -1,0 +1,15 @@
+version: "3"
+
+dotenv: [".env"]
+
+tasks:
+
+  build:
+    cmds:
+      - bash .scripts/build.sh
+
+  clean:
+    cmds:
+      - find src -name '__pycache__' | xargs rm -rf
+      - mamba env remove -n csidrl
+      - rm -rf .venv

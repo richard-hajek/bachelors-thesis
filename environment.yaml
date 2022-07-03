@@ -1,0 +1,24 @@
+name: csidrl
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.10
+  - pytorch-cuda==11.7
+  - pytorch==1.13.1
+  - torchvision==0.14.1
+  - torchaudio==0.13.1
+  - pip
+  - poetry
+  - ninja
+  - opencv
+  - gputil
+  - chardet
+  - nvidia::cuda-toolkit==11.7.*
+  - nvidia::cuda-libraries==11.7.*
+  - nvidia::cuda-nvcc==11.7.*
+  - gcc==11.3.0
+  - gxx_linux-64==11.3.0
+

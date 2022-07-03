@@ -1,0 +1,11 @@
+/.cache/
+/.venv/
+/agents/
+/runs/
+done.txt
+report.txt
+todo.txt.bak
+.cache
+logs
+renders
+runs
